@@ -1,0 +1,253 @@
+@import url(../font/css/fontiran.css); 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	font-family: iranyekan  !important;
+	margin: 0;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.card a:hover{
+    color:rgb(43, 43, 43);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    top: 0;
+    z-index: 10;
+    background-image: linear-gradient(to right , #a84fb6 , #5f1782);
+}
+.navbar{
+    background-image: linear-gradient(to right , #a84fb6 , #5f1782);
+    padding: 0 !important;
+    
+}
+.navbar-brand-logo{
+    height: 10svh;
+    padding-left: 20px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.navbar-brand-logo:hover{
+    filter: drop-shadow(2px 2px 2px #f9f9fa);
+}
+.navbar-nav{
+    margin-right: 10svh;
+    direction: rtl;
+    margin-left: auto;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-nav li a:hover{
+    color: rgb(24, 24, 27) !important;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 7svh !important;
+}
+.navbar-toggler{
+    outline: none !important;
+} 
+#banner{
+    background-image: linear-gradient(to right , #a84fb6 , #5f1782);
+    color: #fff;
+    direction: rtl;
+    padding-top: 4svh;
+}
+.promo-title{
+    font-size: 8svh;
+    font-weight: 600;
+    margin-top: 10svh;
+}
+
+.icon-back{
+    color: white;
+    font-size: 3svh;
+    font-weight: 600;
+}
+.fa-arrow-left{
+    padding: 3svh;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.bottom-img{
+    width: 100%;
+}
+.card{
+    transition: all 0.2s ease-in;
+    box-shadow: 0 0 15px #000000;
+    margin-top: 5%;
+}
+.card:hover{
+    opacity: 0.95;
+    box-shadow: 0 0 20px #fff;
+}
+.card-body{
+    background: linear-gradient(to right,rgb(209, 214, 212),rgb(193, 196, 195),rgb(232, 235, 235));
+    direction: rtl;
+    box-sizing: border-box;
+
+}
+#services{
+    background: linear-gradient(to right,#4fb6b6 , #172782);
+    border-radius: 3svh;
+
+}
+.Lightning{
+    width: 15svh;
+}
+.headerr{
+    direction: rtl;
+}
+.headerrr{
+    background-image: linear-gradient(to right , #a84fb6 , #5f1782);
+}
+.gridd{
+    padding: 2svh;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.img-darbare{
+    display: flex;
+    width: 15svh;
+    text-align: center;
+    justify-self: center;
+}
+.headd{
+    margin-top: 2svh;
+    display: inline-block;
+    margin-right: 7svh;
+    border-bottom: 1px solid rgb(55, 0, 255);
+}
+.contt{
+    padding-right: 40svh;
+    direction: rtl;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+}
+.matn{
+    
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    padding-left: 1svh;
+}
+.ml-5{
+    margin-left: 30svh;
+}
+.social{
+    width: 10svh;
+    margin: 0;
+}
+.ssocial{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text-reset{
+    text-decoration: none;
+
+}
+.fottter{
+    background-image: linear-gradient(to right , #b64f4f , #821717);
+}
+.text-reset a, h6,h5{
+    color: white;
+}
+.text-reset a, h6:hover{
+    color: rgb(0, 0, 0);
+}
+.social:hover{
+    opacity: 0.8;
+}
+.sizing{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10svh;
+    margin: 0;
+}
+.hazf{
+    position: absolute;
+    left: -1000px;
+}
+#ani{
+    transition: all 2s;
+    animation: opa 10s infinite ;
+}
+@keyframes opa{
+    0%{
+            opacity: 1;
+            color: white;
+    }
+    15%{
+            opacity: 0.8;
+            color: white;
+    }
+    25%{
+            opacity: 1;
+            color: rgb(0, 0, 0);
+            text-shadow: 5px 0px 5px rgb(255, 255, 255);
+    }
+    40%{
+            opacity: 0.5;
+            color: rgba(0, 0, 0, 0.774);
+            text-shadow: 5px 0px 5px rgb(255, 255, 255);
+    }
+    50%{
+            opacity: 0.5;
+            color: #fff;
+            text-shadow: 5px 0px 5px black;
+            
+        }
+        75%{
+                opacity: 0;
+        }
+        90%{
+                opacity: 1;
+        }
+        100%{
+            color: white;
+                opacity: 1;
+        }
+}
+
+#magaleh{
+    margin-top: 7%;
+    direction: rtl;
+    text-align: center;
+
+}
+#magaleh h2{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 3svh;
+    
+}
+
+.body2{
+    background-image: linear-gradient(to right,rgb(56, 158, 119),rgb(15, 153, 130));
+}

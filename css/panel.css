@@ -1,0 +1,44 @@
+@import url(../font/css/fontiran.css); 
+body {
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(245, 241, 241));
+	font-family: iranyekan  !important;
+
+	margin: 0;
+
+}
+.navbar-brand-logo{
+    height: 10svh;
+    padding-left: 20px;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.navbar-brand-logo:hover{
+    filter: drop-shadow(2px 2px 2px #f9f9fa);
+}
+.d-none {
+    color: white;
+}
+.nav-link{
+    color: black;
+}
+.text-po{
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+}
+.w-1{
+    
+    margin: auto;
+}
+.bord{
+    border-left: 2px solid rgb(29, 27, 27);
+}
+.main2{
+
+    width: 83%;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
